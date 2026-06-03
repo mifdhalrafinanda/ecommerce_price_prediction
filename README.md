@@ -21,7 +21,6 @@ tracked products on that same day.
 ├── 3_feature_engineering.ipynb <- Feature creation and train/val split
 ├── 4_modelling.ipynb           <- Tier 1 & Tier 2 model training + evaluation
 ├── 5_prediction.ipynb          <- Generate predictions for test file
-├── predictions_3days.csv       <- Output: all 25,900 rows with prices filled in
 ├── requirements.txt
 └── README.md
 ```
@@ -34,6 +33,7 @@ data_train.csv        <- output of 3_feature_engineering.ipynb
 data_val.csv          <- output of 3_feature_engineering.ipynb
 feature_cols.pkl      <- output of 3_feature_engineering.ipynb
 model.pkl             <- output of 4_modelling.ipynb
+predictions_3days.csv <- output of 5_prediction.ipynb : all 25,900 rows with prices filled in
 ```
 
 ---
