@@ -105,7 +105,7 @@ Predictions are back-transformed with `np.expm1()`.
 **Why RandomForest?**
 - No feature scaling required, tree-based models are scale-invariant
 - Robust to outliers, averaging across 100 trees reduces noise
-- Suitable for tabular data, consistently outperforms neural networks on structured data
+- Suitable for tabular data, Highly effective and reliable for structured data, requiring significantly less tuning than neural networks to achieve high accuracy
 
 ### Tier 2 - Product-Level Model (Last Price)
 
